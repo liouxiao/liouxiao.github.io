@@ -101,7 +101,7 @@ function callback(e)//单击热点图层
 {
         var customPoi = e.customPoi;//poi的默认字段
         var contentPoi=e.content;//poi的自定义字段
-        var content = '<p style="width:280px;margin:0;line-height:20px;">地址：' + customPoi.address + '<br/>简介:'+contentPoi.description+'</p>';
+        var content = '<p style="width:280px;margin:0;line-height:20px;">地址：' + customPoi.address + '<br/>简介：'+contentPoi.description+'</p>';
         var searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
             title: customPoi.title, //标题
             width: 290, //宽度
